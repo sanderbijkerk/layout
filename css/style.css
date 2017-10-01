@@ -1,0 +1,184 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+	background-color: #f6f6f6;
+}
+
+										/* header */
+
+header {
+	background-color: #fa6f00;
+	padding: 10px 10px 10px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+}
+
+.navbar li {
+	display: inline;
+}
+
+.navbar a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.navbar a:hover {
+	color: black;
+}
+
+										/* content */
+
+.row {
+	display: flex;
+	align-items: baseline;
+}
+
+#nieuws-nav {
+	width: 20%;
+}
+
+#nieuws-nav h2 {
+	background-color: #fa6f00;
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#nieuws-nav dl {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin: 0;
+}
+
+#nieuws-nav a {
+	color: #fa6f00;
+	text-decoration: none;
+}
+
+#nieuws-nav a:hover {
+	color: white;
+}
+
+#main-content {
+	width: 60%;
+}
+
+#main-content h2 {
+	background-color: #fa6f00;
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#main-content p {
+	padding: 10px;
+	margin: 0;
+}
+
+#main-content h3 {
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+#main-content article {
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.img {
+	float: left;
+	margin: 5px;
+}
+
+.link {
+	font-size: 14px;
+	color: #fa6f00;
+	text-decoration: none;
+	margin-left: 550px;
+}
+
+.next-link {
+	font-size: 14px;
+	color: #fa6f00;
+	text-decoration: none;
+	margin-left: 390px;	
+}
+
+.back-link {
+	font-size: 14px;
+	color: #fa6f00;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.nieuws-item {
+	background-color: lightgrey;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 20px 100px;
+	padding: 5px;
+}
+
+.nieuws-item a {
+	text-decoration: none;
+	color: #fa6f00;
+	margin-left: 400px;
+}
+
+.nieuws-item a:hover {
+	color: black;
+}
+
+#ads {
+	width: 20%;
+}
+
+#ads h2 {
+	background-color: #fa6f00;
+	margin: 0;
+	padding: 10px 0 10px 10px;
+	border-top: 1px solid black;
+}
+
+										/* footer */
+
+.nav-footer {
+	background-color: black;
+	text-align: center;
+	overflow: hidden;
+}
+
+.nav-footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+.nav-footer li {
+	display: inline;
+}
+
+.nav-footer a {
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 20px;
+}
+
+.nav-footer a:hover {
+	color: #fa6f00;
+}
